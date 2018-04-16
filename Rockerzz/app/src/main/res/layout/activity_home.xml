@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:onClick="logout"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/postToFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/logout"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="58dp"
+        android:text="Post to Facebook"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="navigateToFacebook"/>
+
+    <ImageView
+        android:id="@+id/facebookImage"
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logout"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/postToFacebook"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/facebookImage"
+        android:layout_below="@+id/postToFacebook"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/twitter" />
+
+    <Button
+        android:id="@+id/twitterPost"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebookImage"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/facebookImage"
+        android:text="Post to Twitter"
+        android:onClick="naivgateToTwitter"/>
+
+
+</RelativeLayout>

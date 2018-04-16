@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rockerzz</string>
+    <!-- Facebook Api AppId,Scheme -->
+    <string name="facebook_app_id">157178584985461</string>
+    <string name="fb_login_protocol_scheme">fb157178584985461</string>
+    <!-- Twitter Api AppId,Scheme -->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">pd40ExgMwyR3asSuScMzt2JQ3</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">    Z8AcNcBi7nfPwGblipIBs5mveTVkZ2QE8jbzf0Dvjd0c9gpZUh
+</string>
+</resources>
